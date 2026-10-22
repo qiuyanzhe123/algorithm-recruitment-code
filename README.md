@@ -1,4 +1,5 @@
 # algorithm-recruitment-code
+（任务2，3皆全部完成，任务4选题3，完成（含提高部分））
 Algorithm recruitment assignments - source code
 学长，这是我的算法组作品，主要的视频、word、程序和说明都在发至邮箱的文件夹里
 大部分独立完成，部分利用了AI来查询资料学习

@@ -1,0 +1,27 @@
+import cv2
+from PIL import Image 
+import matplotlib.pyplot as plot
+bgr_qyz=cv2.imread("test.jpg")
+rgb_qyz=cv2.cvtColor(bgr_qyz,cv2.COLOR_BGR2RGB)
+pil_qyz=Image.fromarray(rgb_qyz)
+r,g,b=pil_qyz.split()
+plot.figure(figsize=(10,8))
+plot.subplot(2,2,1)
+plot.imshow(rgb_qyz)
+plot.title("Original")
+plot.axis("off")
+plot.subplot(2,2,2)
+plot.imshow(r,cmap="Reds",vmin=0,vmax=255)
+plot.title("Red")
+plot.axis("off")
+plot.subplot(2,2,3)
+plot.imshow(g,cmap="Greens",vmin=0,vmax=255)
+plot.title("Green")
+plot.axis("off")
+plot.subplot(2,2,4)
+plot.imshow(b,cmap="Blues",vmin=0,vmax=255)
+plot.title("Blue")
+plot.axis("off")
+plot.tight_layout
+plot.savefig("test2_1.jpg",dpi=150)
+plot.show()

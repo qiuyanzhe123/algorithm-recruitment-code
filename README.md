@@ -1,7 +1,7 @@
 # algorithm-recruitment-code
 Algorithm recruitment assignments - source code
 学长，这是我的算法组作品，主要的视频、word、程序和说明都在发至邮箱的文件夹里
-大部分独立完成（手敲），利用了AI进行学习辅助
+大部分独立完成，部分利用了AI来查询资料学习
 由于硬件问题最后时刻转而准备算法组，任务量较大，超时了一会儿才将代码敲完
 __python版本3.11.17__
 Package               Version
